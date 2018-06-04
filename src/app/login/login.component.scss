@@ -7,4 +7,13 @@
 	top: 50%;
 	margin-left: -20rem;
 	margin-top: -20rem;
+	border-radius: .5rem;
+	box-shadow: #999 .5rem .5rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-container-view:hover{
+	box-shadow: #999 1rem 1rem 1rem;
 }
