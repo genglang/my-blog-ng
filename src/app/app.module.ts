@@ -6,6 +6,7 @@ import {LoginModule} from './login/login.module';
 import {SharedModule} from './shared/shared.module';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
+import {RegisterPageComponent} from './login/register-page/register-page.component';
 
 @NgModule({
     declarations: [

@@ -1,17 +1,15 @@
-<form>
-    {{userName}}
-    {{userPwd}}
+<form #loginForm="ngForm" (ngSubmit)='submitLogin(loginForm.value)'>
     <div>
         <label for="userName">账号</label>
-        <input id='userName' name='userName' type="text" placeholder="请输入账号/邮箱号" [(ngModel)]="userName">
+        <input id='userName' ngModel name='userName' type="text" placeholder="请输入账号/邮箱号">
     </div>
     <div>
         <label for="userPwd">密码</label>
-        <input id='userPwd' name="userPwd" type="password" placeholder="请输入密码" [(ngModel)]="userPwd">
+        <input id='userPwd' ngModel name="userPwd" type="password" placeholder="请输入密码">
     </div>
-    <button type='submit' class="login-button" (click)="submitLogin()" >登录</button>
+    <button type='submit' class="login-button">登录</button>
     <div class="reister-forget-view">
-        <a href="">注册</a>
+        <a href="/register">注册</a>
         <a href="">忘记密码</a>
     </div>
 </form>

@@ -7,8 +7,6 @@ import {Component, OnInit} from '@angular/core';
 })
 export class LoginPageComponent implements OnInit {
 
-    private userName;
-    private userPwd;
 
     constructor() {
     }
@@ -16,8 +14,7 @@ export class LoginPageComponent implements OnInit {
     ngOnInit() {
     }
 
-    submitLogin() {
-        console.log(this.userName);
-        console.log(this.userPwd);
+    submitLogin(value) {
+        console.log(value);
     }
 }

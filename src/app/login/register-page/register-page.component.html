@@ -1,0 +1,23 @@
+<form [formGroup]="formModel" (submit)="OnSubmit()" >
+  <div>
+    <label for="userName">账号</label>
+    <input id='userName' formControlName="userName"  type="text" placeholder="请输入账号">
+  </div>
+  <div>
+    <label for="userEmail">邮箱账号</label>
+    <input id='userEmail' formControlName="userEmail" type="email" placeholder="请输入邮箱号">
+  </div>
+  <div>
+  <label for="userPwd">密码</label>
+  <input id='userPwd' formControlName="userPwd" type="password" placeholder="请输入密码">
+</div>
+  <div>
+    <label for="userRePwd">验证密码</label>
+    <input id='userRePwd' formControlName="userRePwd" type="password" placeholder="请再次输入密码">
+  </div>
+  <button type='submit' class="register-button">注册</button>
+  <div class="reister-forget-view">
+    <a href="">注册</a>
+    <a href="">忘记密码</a>
+  </div>
+</form>
