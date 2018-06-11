@@ -7,6 +7,7 @@ import {SharedModule} from './shared/shared.module';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import {RegisterPageComponent} from './login/register-page/register-page.component';
+import {HomeModule} from './home/home.module';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import {RegisterPageComponent} from './login/register-page/register-page.compone
         SharedModule,
         AppRoutingModule,
         LoginModule,
+        HomeModule
     ],
     providers: [],
     bootstrap: [AppComponent]

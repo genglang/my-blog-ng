@@ -5,6 +5,7 @@ import {LoginPageComponent} from './login-page/login-page.component';
 import {LoginRoutingModule} from './login-routing.module';
 import {LoginComponent} from './login.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
+import { ForgetPageComponent } from './forget-page/forget-page.component';
 
 @NgModule({
     imports: [
@@ -21,7 +22,8 @@ import { RegisterPageComponent } from './register-page/register-page.component';
     declarations: [
         LoginPageComponent,
         LoginComponent,
-        RegisterPageComponent
+        RegisterPageComponent,
+        ForgetPageComponent
     ]
 })
 export class LoginModule {

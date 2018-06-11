@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {LoginPageComponent} from './login-page/login-page.component';
 import {LoginComponent} from './login.component';
 import {RegisterPageComponent} from './register-page/register-page.component';
+import {ForgetPageComponent} from './forget-page/forget-page.component';
 
 const routes: Routes = [
     {
@@ -16,6 +17,10 @@ const routes: Routes = [
             {
                 path: 'register',
                 component: RegisterPageComponent
+            },
+            {
+                path: 'forget',
+                component: ForgetPageComponent
             }
         ]
     },

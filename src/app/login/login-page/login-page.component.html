@@ -1,15 +1,17 @@
-<form #loginForm="ngForm" (ngSubmit)='submitLogin(loginForm.value)'>
-    <div>
+<form #loginForm="ngForm" (ngSubmit)='submitLogin(loginForm.value)' class="form-view">
+    <div class="input-view">
         <label for="userName">账号</label>
         <input id='userName' ngModel name='userName' type="text" placeholder="请输入账号/邮箱号">
     </div>
-    <div>
+    <div class="input-view">
         <label for="userPwd">密码</label>
         <input id='userPwd' ngModel name="userPwd" type="password" placeholder="请输入密码">
     </div>
-    <button type='submit' class="login-button">登录</button>
+    <div class="button-view">
+        <button type='submit' class="login-button">登录</button>
+    </div>
     <div class="reister-forget-view">
-        <a href="/register">注册</a>
-        <a href="">忘记密码</a>
+        <a routerLink="/register">注册</a>
+        <a routerLink="/forget">忘记密码</a>
     </div>
 </form>
