@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	padding: .25rem;
+	text-decoration: none;
+	color: #555;
+}
+a:hover{
+	color: #fff;
+	background-color: #aaa;
+}
+html,body,app-toot{
+}
