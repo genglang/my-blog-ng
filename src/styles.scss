@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+body{
 	margin: 0;
 	padding: 0;
+}
+ul{
+	padding-left: 0;
+}
+li{
+	margin-left: 0;
 }
 ul{
 	list-style: none;
