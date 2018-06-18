@@ -1,0 +1,27 @@
+.blog-body-view{
+	width: 56rem;
+	margin: 1rem;
+	padding: 1rem;
+	border: 1px solid #ddd;
+	border-radius: .2rem;
+	box-shadow: #ddd .25rem .25rem 1rem .25rem;
+	.blog-body-container{
+		border-bottom: 1px solid #ddd;
+		
+		figure{
+			margin: 0;
+			height: 30rem;
+			background-color: red;
+		}
+	}
+	footer{
+		display: flex;
+		justify-content: space-between;
+		ul{
+			display: flex;
+		}
+		div{
+			display: flex;
+		}
+	}
+}
